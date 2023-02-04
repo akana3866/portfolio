@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Aditi Kanaujia</title>
+    <link rel="icon" type="image/png" href="images/lens.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id=title>
+      <h1><a href="index.html">ak</a></h1>
+    </div>
+    <header>
+      <nav class="head">
+        <a href="about-me.html" >About Me</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="contact-me.html">Contact Me</a>
+      </nav>
+      <svg class="menu" viewBox="0 0 30 30" role="button">
+        <line x1="8" x2="22" y1="12" y2="12" stroke="white" stroke-linecap="round" />
+        <line x1="8" x2="22" y1="18" y2="18" stroke="white" stroke-linecap="round" />
+      </svg>
+    </header>
+    <article id="form">
+      <img
+          class="contacts"
+          width="250"
+          height="250"
+          src="contact.png"
+          srcset="images/contact.png 900w, images/contact-2x.png 1800w"
+          sizes="(max-width: 2000px) 900px, (min-width: 1000px) 1800px"
+          alt="Button"
+        >
+        <h2>Contact Me</h2>
+        <p>Feel free to fill out the form to connect!</p>
+      <form action="https://formspree.io/f/xzbwneqw"
+        method="POST">
+        <p>First Name</p>
+        <input type = "text" name="first-name" required>
+        <p></p>
+        <p>Last Name</p>
+        <input type = "text" name="last-name" required>
+        <p></p>
+        <p>Email</p>
+        <input type = "email" name="email" required>
+        <p></p>
+        <p>Message</p>
+        <textarea name="message" cols="36" rows="6" placeholder="Enter your message here"></textarea>
+
+        <p><input type = "submit" value="Send"></p>
+      </form>
+    </article>
+    <script src="navigation.js"></script>
+    <script src="genres.js"></script>
+  </body>
+  </html>
